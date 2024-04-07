@@ -1,20 +1,18 @@
-<div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
+<div class="navbar navbar-expand-sm navbar-light navbar-lewagon sticky-top">
   <div class="container-fluid justify-content-between align-items-center">
     <%# COLLAPSE BTN %>
-    <div class="btn-heart">
-     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-     </button>
-     <i class="fa-regular fa-heart"></i>
+    <div class="btn-heart d-flex align-items-center">
+       <span class="navbar-toggler-icon me-2"></span>
+       <i class="fa-regular fa-heart"></i>
     </div>
     <%# TITLE %>
-    <%= link_to "#", class: "navbar-brand" do %>
-      <h2>HAILWYDYS</h2>
+    <%= link_to root_path, class: "navbar-brand me-0" do %>
+      <h1>HAILWYDYS</h1>
     <% end %>
     <%# SEARCH AND BASKET %>
     <div class="search-basket">
       <i class="fa-solid fa-magnifying-glass"></i>
-      <i class="fa-solid fa-bag-shopping"></i>
+      <i class="fa-solid fa-bag-shopping ms-2"></i>
     </div>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">

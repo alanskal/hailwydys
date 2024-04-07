@@ -1,0 +1,25 @@
+.bouton-perso {
+  border: 1px solid;
+  border-radius: 30px;
+  text-align: center;
+  margin-top: 2px;
+}
+
+.bouton-perso p {
+  color: black;
+}
+
+.bouton-perso:hover {
+  border: 1px solid transparent;
+  background-color: $my-blue;
+  border-radius: 30px;
+}
+
+.p-in-btn {
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 36px;
+  padding-right: 36px;
+  font-size: 15px;
+  font-weight: 200;
+}
