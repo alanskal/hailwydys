@@ -1,1 +1,20 @@
-// Specific CSS for your home-page
+.background {
+  position: relative;
+}
+
+.img {
+  position: relative;
+}
+
+.pic-content {
+  position: absolute;
+  bottom: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  overflow-wrap: break-word;
+}
+
+.custom-link {
+  text-decoration: none !important;
+}
